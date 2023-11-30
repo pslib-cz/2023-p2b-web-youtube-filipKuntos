@@ -2,19 +2,38 @@
 
 .main {
    gap: 1em;
+
+
+   
 }
 
 .ytv {
-    
+
+
+   
+   flex-wrap: wrap;
+   flex: auto;
+
+   
+   
 }
 .ytv__bottom {
-    
+    justify-content: baseline;
+    flex-wrap: wrap;
+    align-content: baseline;
 }
 .ytv__left {
-    
+   display: flex;
+   align-content: baseline;
+   align-items: center;
+   
+
 }
 .ytv__right {
-    
+   display: flex;
+   align-items: baseline;
+   justify-content: flex-end;
+   align-content: flex-end;
 }
 .profile {
     
@@ -26,5 +45,7 @@
 
 }
 .btn--flex {
-    
+
+   display: flex;
 }
+
