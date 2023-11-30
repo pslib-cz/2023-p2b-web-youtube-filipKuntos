@@ -2,44 +2,48 @@
 
 .main {
    gap: 1em;
-
-
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+   align-content: center;
    
 }
 
 .ytv {
-
-
    
-   flex-wrap: wrap;
-   flex: auto;
 
-   
+   align-content: flex-end;
    
 }
 .ytv__bottom {
-    justify-content: baseline;
-    flex-wrap: wrap;
-    align-content: baseline;
+
+   display: flex;
+   align-items: flex-end;
+
+   
+
 }
 .ytv__left {
+   gap: 1em;
    display: flex;
-   align-content: baseline;
    align-items: center;
    
 
 }
 .ytv__right {
+   gap: 1em;
    display: flex;
    align-items: baseline;
    justify-content: flex-end;
-   align-content: flex-end;
+
 }
 .profile {
-    
+    display: flex;
+    gap: 1em;
+    align-items: center;
 }
 .profile__text {
-    
+   align-content: center;
 }
 .icon {
 
@@ -47,5 +51,6 @@
 .btn--flex {
 
    display: flex;
+
 }
 
